@@ -8,12 +8,85 @@
 
 #import "PLAppDelegate.h"
 
+#import "Push_services_Library.h" //add
+
 @implementation PLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)])
+    {
+        UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert | UIUserNotificationTypeBadge | UIUserNotificationTypeSound);
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes categories:nil];
+        [application registerUserNotificationSettings:settings];
+        [application registerForRemoteNotifications];
+    }
+    else
+    {
+        // Register for Push Notifications, if running iOS version < 8
+        [application registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound)];
+    }
+    
+    
+    [[Php phpManager]webconnect];
+    
     return YES;
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+
+{
+    
+    [[Php phpManager]registerdevice:@"Albi" :deviceToken :@"QWxiaWRiVGVzdE5ldw=="];
+    
+    NSLog(@"Token:%@", deviceToken);
+    
+    
+}
+
+-(void)application:(UIApplication *)app didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    if([app applicationState] == UIApplicationStateInactive)
+    {
+        NSLog(@"Received notifications while inactive.");
+    }
+    else
+    {
+        NSLog(@"Received notifications while active.");
+    }
+    
+    for (id key in userInfo) {
+        NSLog(@"key: %@, value: %@", key, [userInfo objectForKey:key]);
+    }
+    
+    //////////load aps, custom aps//////////////
+    NSDictionary *aps = (NSDictionary *)[userInfo objectForKey:@"custom"];
+    NSMutableString *alert = [NSMutableString stringWithString:@""];
+    
+    if ([aps objectForKey:@"url"])
+    {
+        [alert appendString:(NSString *)[aps objectForKey:@"url"]];
+        
+        NSLog(@"Log url:%@",alert);
+        
+        NSURL *url = [NSURL URLWithString:alert];
+        [[UIApplication sharedApplication] openURL:url];
+    }
+    if ([aps objectForKey:@"Channel"])
+    {
+        
+        
+        NSLog(@"Log Channel:%@",[aps objectForKey:@"Channel"]);
+    }
+    
+}
+-(void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
+    
+    NSString *str = [NSString stringWithFormat: @"Error: %@", err];
+    NSLog(@"Log:%@",str);
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
