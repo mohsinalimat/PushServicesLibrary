@@ -24,21 +24,21 @@
 
 /* Begin PBXFileReference section */
 		09473787BF65ADE74CA81204DC4ED501 /* PushServicesLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushServicesLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		129C5353D41E7F7318FF01B47736CA8D /* libPush_services_Library.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPush_services_Library.a; path = Pod/Classes/libPush_services_Library.a; sourceTree = "<group>"; };
 		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3B929C5A1A14EDCE3EA9BFE54B22FF96 /* Pods-PushServicesLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushServicesLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3DD1995F66A11FA1791F7F6A045D837C /* Push_services_Library.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Push_services_Library.h; path = Pod/Classes/Push_services_Library.h; sourceTree = "<group>"; };
 		407C23428BA2362673F8A037D85ED883 /* Pods_PushServicesLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushServicesLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0F900BA36D6ED5338C7C2A09AD78C9 /* ResourceBundle-PushServicesLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PushServicesLibrary-Info.plist"; sourceTree = "<group>"; };
 		7532D685D1F7A9D5D1C30786750A9E44 /* Pods-PushServicesLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PushServicesLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		8BA5D036676AFCB078436D5D5FC1D854 /* Pods-PushServicesLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushServicesLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FEAC54869B618251C648EC015200400 /* Php.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Php.h; sourceTree = "<group>"; };
+		A839F78A83C0D4EFA3C80A460DC74B41 /* Php.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Php.h; path = Pod/Classes/Php.h; sourceTree = "<group>"; };
 		B07383E61231CA1E912DB1A71F4C2010 /* Pods-PushServicesLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushServicesLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		B3C867EEC3709BA38D1D927528CB2A1D /* Pods-PushServicesLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushServicesLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B6585CF07411EF8B7D7D2D5586902BB8 /* Pods-PushServicesLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushServicesLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D0151E268A6F65E17B916446D0D43024 /* Pods-PushServicesLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushServicesLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		D03311BA69249D7A1B7A97F892161453 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D152E1FDF3BA88180CE3A7489C2C08B2 /* Push_services_Library.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Push_services_Library.h; sourceTree = "<group>"; };
-		EB3230E6361C2FF1387476EAD8372FF8 /* ResourceBundle-PushServicesLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PushServicesLibrary-Info.plist"; sourceTree = "<group>"; };
+		E2AF2D13238AA330034FBC180441D43E /* libPush_services_Library.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPush_services_Library.a; path = Pod/Classes/libPush_services_Library.a; sourceTree = "<group>"; };
 		F07BC85AB9322FD21358E34EC2BD2C82 /* Pods-PushServicesLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushServicesLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5161305C098B367050BBFF2D4FE7E12 /* Pods-PushServicesLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushServicesLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,29 +70,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1E75D09327895C87CFD29D5D44E6FD82 /* Development Pods */ = {
+		15893D5DF76ABFBBA77E81F9F31D6BBC /* PushServicesLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				C010FFDE480410FCC08FCE544797AE87 /* PushServicesLibrary */,
+				A839F78A83C0D4EFA3C80A460DC74B41 /* Php.h */,
+				3DD1995F66A11FA1791F7F6A045D837C /* Push_services_Library.h */,
+				DF50B8668DD1797A3330E3A1A9F3E15B /* Frameworks */,
+				6F47CC22E6BCD600271523384CCE94BE /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1F37E4A1CCC7DCDE05EAC983FF79257F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				129C5353D41E7F7318FF01B47736CA8D /* libPush_services_Library.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1F76B70967CB90FB815A651C6528CAC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EB3230E6361C2FF1387476EAD8372FF8 /* ResourceBundle-PushServicesLibrary-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../../../Xcode_Push_services_Könyvtárak/Github/PushServicesLibrary/Example/Pods/Target Support Files/PushServicesLibrary";
+			path = PushServicesLibrary;
 			sourceTree = "<group>";
 		};
 		21D4E1039B6FD21BA9F64D5EAFEC6BFD /* Pods-PushServicesLibrary_Example */ = {
@@ -122,20 +108,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D8FCDCD514BE0089DA0956C18C7A0D2 /* Pod */ = {
+		6F47CC22E6BCD600271523384CCE94BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E38FA117D3FCAB665546705D9CA36128 /* Classes */,
+				6F0F900BA36D6ED5338C7C2A09AD78C9 /* ResourceBundle-PushServicesLibrary-Info.plist */,
 			);
-			path = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/PushServicesLibrary";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1E75D09327895C87CFD29D5D44E6FD82 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F761C84C6D98BC58D88C60AEF4CC69BF /* Pods */,
 				3D70823C9415B81982C73F4F24091276 /* Products */,
 				CCED1EEFDE1896EED5C49D4AFE12F59A /* Targets Support Files */,
 			);
@@ -149,17 +136,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C010FFDE480410FCC08FCE544797AE87 /* PushServicesLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				1F37E4A1CCC7DCDE05EAC983FF79257F /* Frameworks */,
-				3D8FCDCD514BE0089DA0956C18C7A0D2 /* Pod */,
-				1F76B70967CB90FB815A651C6528CAC2 /* Support Files */,
-			);
-			name = PushServicesLibrary;
-			path = "/Users/devalios/Xcode/Xcode_Push_services_Könyvtárak/Github/PushServicesLibrary";
-			sourceTree = "<absolute>";
-		};
 		CCED1EEFDE1896EED5C49D4AFE12F59A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,13 +144,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E38FA117D3FCAB665546705D9CA36128 /* Classes */ = {
+		DF50B8668DD1797A3330E3A1A9F3E15B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FEAC54869B618251C648EC015200400 /* Php.h */,
-				D152E1FDF3BA88180CE3A7489C2C08B2 /* Push_services_Library.h */,
+				E2AF2D13238AA330034FBC180441D43E /* libPush_services_Library.a */,
 			);
-			path = Classes;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F761C84C6D98BC58D88C60AEF4CC69BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15893D5DF76ABFBBA77E81F9F31D6BBC /* PushServicesLibrary */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

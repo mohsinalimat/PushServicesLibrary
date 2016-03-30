@@ -2,15 +2,11 @@ PODS:
   - PushServicesLibrary (1.0.0)
 
 DEPENDENCIES:
-  - PushServicesLibrary (from `/Users/devalios/Xcode/Xcode_Push_services_Könyvtárak/Github/PushServicesLibrary`)
-
-EXTERNAL SOURCES:
-  PushServicesLibrary:
-    :path: "/Users/devalios/Xcode/Xcode_Push_services_Könyvtárak/Github/PushServicesLibrary"
+  - PushServicesLibrary
 
 SPEC CHECKSUMS:
   PushServicesLibrary: 25be9a89053b6960d71970e50e0055891f31656f
 
-PODFILE CHECKSUM: d9d940a0b0ef4de6b21bd288930b0e0ef9138c17
+PODFILE CHECKSUM: 1c67795a6b8b143927381532466cf34549b52ca0
 
 COCOAPODS: 1.0.0.beta.6

@@ -39,7 +39,7 @@
 
 {
     
-    [[Php phpManager]registerdevice:@"Albi" :deviceToken :@"QWxiaWRiVGVzdE5ldw=="];
+    [[Php phpManager]registerdevice:@"Username" :deviceToken :@"QWxiaWRiVGVzgtzE5ldw=="];
     
     NSLog(@"Token:%@", deviceToken);
     

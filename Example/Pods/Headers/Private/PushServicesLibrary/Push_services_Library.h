@@ -1,1 +1,1 @@
-../../../../../../../../Xcode_Push_services_Könyvtárak/Github/PushServicesLibrary/Pod/Classes/Push_services_Library.h
+../../../PushServicesLibrary/Pod/Classes/Push_services_Library.h

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A57343D125C724A755CED59D9805F43F1D759D32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A52F0A90DC3978697E7C65D136EDE0CB6414CF3D" : 0,
+    "A57343D125C724A755CED59D9805F43F1D759D32" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DCD8EA9-601D-4325-B162-1D0AC78A81CE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A52F0A90DC3978697E7C65D136EDE0CB6414CF3D" : "",
+    "A57343D125C724A755CED59D9805F43F1D759D32" : "PushServicesLibrary\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PushServicesLibrary",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PushServicesLibrary.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devalios\/PushStaticLibrary",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A52F0A90DC3978697E7C65D136EDE0CB6414CF3D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/devalios\/PushServicesLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A57343D125C724A755CED59D9805F43F1D759D32"
+    }
+  ]
+}
