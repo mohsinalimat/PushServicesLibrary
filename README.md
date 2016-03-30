@@ -92,7 +92,7 @@ return YES;
 
 ## Author
 
-Devalios Team, info@techmobilesoft.com
+devalios, info@techmobilesoft.com
 
 ## License
 
