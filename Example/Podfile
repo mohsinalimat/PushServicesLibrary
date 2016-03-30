@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PushServicesLibrary_Example', :exclusive => true do
+  pod 'PushServicesLibrary', :path => '../'
+end
+
+target 'PushServicesLibrary_Tests', :exclusive => true do
+  pod 'PushServicesLibrary', :path => '../'
+
+  
+end
