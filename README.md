@@ -1,6 +1,7 @@
 # PushServicesLibrary
 
 <!--[![CI Status](http://img.shields.io/travis/devalios/PushServicesLibrary.svg?style=flat)](https://travis-ci.org/devalios/PushServicesLibrary)-->
+![CI Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 [![Version](https://img.shields.io/cocoapods/v/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
 [![License](https://img.shields.io/cocoapods/l/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
 [![Platform](https://img.shields.io/cocoapods/p/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
