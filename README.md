@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
 [![License](https://img.shields.io/cocoapods/l/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
 [![Platform](https://img.shields.io/cocoapods/p/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
-[![Github Releases (by Asset)](https://img.shields.io/github/downloads/atom/atom/latest/PushServicesLibrary.svg)](http://cocoapods.org/pods/PushServicesLibrary)
+![language](https://img.shields.io/badge/Language-Objective%20C-blue.svg)
 
 ![Screenshot0][img0]
 
