@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PushServicesLibrary"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Push Services Library"
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,5 @@ s.vendored_libraries = 'Pod/Classes/*.a'
   # s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration'
   # s.dependency 'AFNetworking', '~> 2.3'
 s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC' }
-#s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+
 end

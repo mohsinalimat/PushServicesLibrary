@@ -82,11 +82,12 @@ return YES;
 } 
 ````
 
+Xcode Project Setting **BITCODE_ENABLE=NO**
+
 <center>https://push.techmobilesoft.com/document-help-2.php</center>
 
 
 [img0]:https://www.techmobilesoft.com/wp-content/uploads/2016/02/push_iphone-git.jpg
-
 
 
 
