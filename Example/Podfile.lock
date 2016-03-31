@@ -1,11 +1,11 @@
 PODS:
-  - PushServicesLibrary (1.0.1)
+  - PushServicesLibrary (1.0.2)
 
 DEPENDENCIES:
   - PushServicesLibrary
 
 SPEC CHECKSUMS:
-  PushServicesLibrary: df734130658435d8c51668d46e1ce6ff6750ed89
+  PushServicesLibrary: bd372cc9961309dfc572f79fdd7871c0843fc7bf
 
 PODFILE CHECKSUM: 534ffe843e1e5fc66269e9f8e2ccdac8450647c6
 

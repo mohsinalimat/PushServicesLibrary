@@ -82,6 +82,8 @@ return YES;
 } 
 ````
 
+Xcode Project Setting **BITCODE_ENABLE=NO**
+
 <center>https://push.techmobilesoft.com/document-help-2.php</center>
 
 
@@ -89,10 +91,9 @@ return YES;
 
 
 
-
 ## Author
 
-Devalios Team, info@techmobilesoft.com
+devalios, info@techmobilesoft.com
 
 ## License
 
