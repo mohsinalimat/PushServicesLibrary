@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D8504D1CE99844F8435520 /* Pods_PushServicesLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344C93433D286CF4437605E5 /* Pods_PushServicesLibrary_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,11 +17,11 @@
 		6003F5A7195388D20070C39A /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EF57919BEDB7705783A97FE3 /* Pods_PushServicesLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD2D59FCD0CEAF2E5246ECF /* Pods_PushServicesLibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		216107DC0131C45D7D1E92CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		344C93433D286CF4437605E5 /* Pods_PushServicesLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushServicesLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PushServicesLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushServicesLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -36,11 +37,10 @@
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6F88E0258FE5E9FE2B254B0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7184A3FF4F010B7BB5CF1D0B /* Pods-PushServicesLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushServicesLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushServicesLibrary_Example/Pods-PushServicesLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		87578B5D8A6F637C1E4214F5 /* Pods-PushServicesLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushServicesLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushServicesLibrary_Example/Pods-PushServicesLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2CB4D4096D4D955E7C8C136 /* PushServicesLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PushServicesLibrary.podspec; path = ../PushServicesLibrary.podspec; sourceTree = "<group>"; };
-		DCD2D59FCD0CEAF2E5246ECF /* Pods_PushServicesLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushServicesLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF31456742D386FC2E949BE7 /* Pods-PushServicesLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushServicesLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushServicesLibrary_Example/Pods-PushServicesLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C6528CDBC63F79CF73C5A6C3 /* Pods-PushServicesLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushServicesLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushServicesLibrary_Example/Pods-PushServicesLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EF57919BEDB7705783A97FE3 /* Pods_PushServicesLibrary_Example.framework in Frameworks */,
+				07D8504D1CE99844F8435520 /* Pods_PushServicesLibrary_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +65,7 @@
 				6003F593195388D20070C39A /* Example for PushServicesLibrary */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				8DAC24D53A20A7F494D2476A /* Pods */,
+				C6A13C62EA785229FC480EF8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +84,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DCD2D59FCD0CEAF2E5246ECF /* Pods_PushServicesLibrary_Example.framework */,
+				344C93433D286CF4437605E5 /* Pods_PushServicesLibrary_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,11 +125,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8DAC24D53A20A7F494D2476A /* Pods */ = {
+		C6A13C62EA785229FC480EF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF31456742D386FC2E949BE7 /* Pods-PushServicesLibrary_Example.debug.xcconfig */,
-				87578B5D8A6F637C1E4214F5 /* Pods-PushServicesLibrary_Example.release.xcconfig */,
+				7184A3FF4F010B7BB5CF1D0B /* Pods-PushServicesLibrary_Example.debug.xcconfig */,
+				C6528CDBC63F79CF73C5A6C3 /* Pods-PushServicesLibrary_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -348,11 +348,11 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF31456742D386FC2E949BE7 /* Pods-PushServicesLibrary_Example.debug.xcconfig */;
+			baseConfigurationReference = 7184A3FF4F010B7BB5CF1D0B /* Pods-PushServicesLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushServicesLibrary/PushServicesLibrary-Prefix.pch";
 				INFOPLIST_FILE = "PushServicesLibrary/PushServicesLibrary-Info.plist";
@@ -365,11 +365,11 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87578B5D8A6F637C1E4214F5 /* Pods-PushServicesLibrary_Example.release.xcconfig */;
+			baseConfigurationReference = C6528CDBC63F79CF73C5A6C3 /* Pods-PushServicesLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushServicesLibrary/PushServicesLibrary-Prefix.pch";
 				INFOPLIST_FILE = "PushServicesLibrary/PushServicesLibrary-Info.plist";

@@ -1,12 +1,12 @@
 PODS:
-  - PushServicesLibrary (1.0.0)
+  - PushServicesLibrary (1.0.1)
 
 DEPENDENCIES:
   - PushServicesLibrary
 
 SPEC CHECKSUMS:
-  PushServicesLibrary: 25be9a89053b6960d71970e50e0055891f31656f
+  PushServicesLibrary: df734130658435d8c51668d46e1ce6ff6750ed89
 
-PODFILE CHECKSUM: 1c67795a6b8b143927381532466cf34549b52ca0
+PODFILE CHECKSUM: 534ffe843e1e5fc66269e9f8e2ccdac8450647c6
 
 COCOAPODS: 1.0.0.beta.6

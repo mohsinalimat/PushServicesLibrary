@@ -40,6 +40,6 @@ s.vendored_libraries = 'Pod/Classes/*.a'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration'
   # s.dependency 'AFNetworking', '~> 2.3'
-s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC', 'ENABLE_BITCODE' => 'NO' }
+s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC' }
 #s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
