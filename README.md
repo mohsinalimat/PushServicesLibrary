@@ -1,7 +1,6 @@
 # PushServicesLibrary
 
 <!--[![CI Status](http://img.shields.io/travis/devalios/PushServicesLibrary.svg?style=flat)](https://travis-ci.org/devalios/PushServicesLibrary)-->
-[![Language](https://img.shields.io/cocoapods/lang/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
 [![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg)](http://cocoapods.org/pods/PushServicesLibrary)
 [![License](https://img.shields.io/cocoapods/l/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
 [![Platform](https://img.shields.io/cocoapods/p/PushServicesLibrary.svg?style=flat)](http://cocoapods.org/pods/PushServicesLibrary)
